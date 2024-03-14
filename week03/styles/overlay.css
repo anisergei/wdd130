@@ -1,6 +1,22 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+
+.box {
+   background-color: #999;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgb(0, 0, 0, 0.1)
+}
+
+main img {
+	margin: 0;
+}
+
+aside {
+	position: relative;
 }
 
 main {
