@@ -5,11 +5,11 @@
     --secondary-color: #66CCFF;
     --text-color: #050000;
     --link-color: #990000;
-  }
+}
 
   h2, h3, h4, h5, h6 {
     color: var(--text-color);
-  }
+}
   
 h1 {
     color: var(--text-color);
@@ -18,24 +18,24 @@ h1 {
 p {
     color: var(--text-color);
     
-  }
+}
   
 a {
     text-decoration: none;
-  }
+}
 
 .hero {
     position: relative;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-  }
+}
   
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
   
 .hero h1 {
     position: absolute;
@@ -58,7 +58,7 @@ a {
     padding: 20px;
     color: var(--text-color);
     width: 70%;
-  }
+}
   
 .hero article img {
     width: 200px;
