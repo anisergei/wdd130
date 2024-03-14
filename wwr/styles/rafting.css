@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgba(160, 173, 185, 0.7);
+    --secondary-color: #66CCFF;
+    --text-color: #050000;
+    --link-color: #990000;
+  }
+
+  h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+  }
+  
+h1 {
+    color: var(--text-color);
+}
+
+
+p {
+    color: var(--text-color);
+    
+  }
+  
+a {
+    text-decoration: none;
+  }
+
+.hero {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    padding: 5px var(--text-color);
+    border-radius: 1px;
+    border-width: 50px;
+    background-color: var(--primary-color);
+    width: 100%;
+}
+  
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: var(--text-color);
+    width: 70%;
+  }
+  
+.hero article img {
+    width: 200px;
+    height: auto;
+    border: 1px solid rgb(202, 208, 212);
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(204, 202, 202);
+    float: right;
+    margin: 0, 0, 1rew, 1rew;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}  
+
+  
+ 
