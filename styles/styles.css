@@ -22,7 +22,7 @@ nav a {
 
 h1 {
     color: steelblue;
-    padding: .5rew;
+    padding: .5rem;
 }
 
 img {
@@ -53,7 +53,7 @@ main img{
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0, 0, 1rew, 1rew;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -67,7 +67,7 @@ aside {
 }
 
 aside h2 {
-    position: top;
+    position: absolute;
     top: 67px;
     left: 150px;
 }  
