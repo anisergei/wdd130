@@ -15,7 +15,6 @@ h1 {
     color: var(--text-color);
 }
 
-
 p {
     color: var(--text-color);
     
@@ -43,7 +42,7 @@ a {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -40%);
-    padding: 5px var(--text-color);
+    padding: 5px;
     border-radius: 1px;
     border-width: 50px;
     background-color: var(--primary-color);
@@ -68,13 +67,14 @@ a {
     padding: 2px;
     box-shadow: 0 0 30px rgb(204, 202, 202);
     float: right;
-    margin: 0, 0, 1rew, 1rew;
+    margin: 0, 0, 0, 1rew;
 }
 
 img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
+    overflow: hidden;
 }  
+
+
 
   
  
