@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-    --primary-color: #063663;
-    --secondary-color: #FFFFFF;
-    --accent1-color: #a7b4c0;
-    --accent2-color:#333333;
+    --primary-color:#424B54 ;
+    --secondary-color: #93A8AC ;
+    --accent1-color: #FFFFFF;
+    --accent2-color: #E2B4BD;
 
     --heading-font: 'Arial', serif;
     --paragraph-font: 'Helvetica', serif;
@@ -22,13 +22,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-            font-family: var(--heading-font);
-            color: var(--primary-color);
-        }
-
-p{
-    line-height: 24px;
-    font-size: 16px;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 header {
@@ -36,8 +31,14 @@ header {
     background-color: var(--accent1-color);
 }
 
+p {
+    padding: 25px;
+}
+
 nav{
     background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
 }
 
 nav a{
