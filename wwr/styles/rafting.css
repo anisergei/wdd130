@@ -62,7 +62,7 @@ nav ul li a:hover {
   text-align: center;
   top: 40%;
   left: 30%;
-  transform: translate(-50%,);
+  transform: translate(-30%, -50);
   padding: 20px;
 }
 
