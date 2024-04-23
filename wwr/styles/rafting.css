@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Define custom CSS variables */
 :root {
     --primary-color: rgba(160, 173, 185, 0.7);
     --secondary-color: #66CCFF;
@@ -7,107 +8,123 @@
     --link-color: #990000;
 }
 
+/* General styling for headings and paragraphs */
 h1, h2, p {
-  color: var(--text-color);
+    color: var(--text-color);
 }
 
+/* Header styling */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #dcdfcc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #dcdfcc;
 }
 
+/* Logo styling */
 .logo {
-  flex: 1;
+    flex: 1;
 }
 
+/* Navigation styling */
 nav ul {
-  list-style:none;
-  padding: 0;
-  margin: 0;
-  display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 nav ul li a {
-  text-decoration: none; /* Remove underline from links */
-  color: #0c0c0c; /* Set link color */
-  font-weight: bold; /* Set font weight */
-  display: inline-block;
-  padding: 15px; /* Add padding */
-  background-color: #cec5c5; /* Set background color */
-  border-radius: 5px; 
+    text-decoration: none;
+    color: #0c0c0c;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    background-color: #cec5c5;
+    border-radius: 5px;
 }
 
 nav ul li a:hover {
-  background-color: #e6dbdb; /* Change background color on hover */
-} 
+    background-color: #e6dbdb;
+}
 
+/* Hero section styling */
 .hero {
-  position: relative;
-  width: 100%;
-  max-width: 120%;
-  margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 120%;
+    margin: 0 auto;
 }
 
 .hero img {
-  display: block;
-  width: 100%;
-  height: auto;
+    display: flex;
+    width: 100%;
+    height: auto;
 }
 
 .hero h1 {
-  position: absolute;
-  text-align: center;
-  top: 20%;
-  left: 30%;
-  transform: translate(-10%, -50%);
-  padding: 20px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    bottom: 0;
+    left: 30%;
+    transform: translate(-10%, -50%);
+    padding: 20px;
 }
 
 .hero article {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: var(--primary-color);
-  padding: 30px;
-  color: var(--text-color);
-  width: 90%;
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--primary-color);
+    padding: 10px;
+    color: var(--text-color);
+    width: 70%;
 }
 
 .hero article img {
-  width: 200px;
-  height: auto;
-  border: 1px solid rgb(202, 208, 212);
-  padding: 2px;
-  box-shadow: 0 0 30px rgb(204, 202, 202);
-  float: right;
-  margin: 0 0 0 1rem;
+    width: 200px;
+    height: auto;
+    border: 1px solid rgb(202, 208, 212);
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(204, 202, 202);
+    float: right;
+    margin: 0 0 0 1rem;
 }
 
-img {
-  overflow: hidden;
-}  
-
-.image-section{
-display: flex;
-flex-direction: column;
+/* Image section styling */
+.image-section {
+    display: flex;
+    flex-direction: column;
 }
 
 .image-section img::after {
-  content: attr(alt);
-  display: block;
-  text-align: center;
-  }
-  
-  footer nav.sociallinks a img {
-    width: 30px;
-    height: 30px;
-    margin: 0 5px;
-    display: inline-block;
-  }   
+    content: attr(alt);
+    display: block;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 80%; 
+    
+}
+
+.sociallinks img {
+    width: 40px; 
+    height: 40px; 
+}
+
+
+
+
+
   
 
 
