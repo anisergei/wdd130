@@ -13,7 +13,6 @@ h1, h2, p {
     color: var(--text-color);
 }
 
-/* Header styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -50,10 +49,11 @@ nav ul li a:hover {
 }
 
 /* Hero section styling */
-.hero {
+.container hero {
+    display: grid;
     position: relative;
     width: 100%;
-    max-width: 120%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -66,7 +66,7 @@ nav ul li a:hover {
 .hero h1 {
     position: absolute;
     text-align: center;
-    top: 40%;
+    top: 60%;
     bottom: 0;
     left: 30%;
     transform: translate(-10%, -50%);
@@ -75,8 +75,8 @@ nav ul li a:hover {
 
 .hero article {
     position: absolute;
-    top: 60%;
-    bottom: 0;
+    top: 80%;
+    bottom: 10;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--primary-color);
@@ -86,39 +86,77 @@ nav ul li a:hover {
 }
 
 .hero article img {
-    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: center;
+    width: 250px;
     height: auto;
     border: 1px solid rgb(202, 208, 212);
     padding: 2px;
-    box-shadow: 0 0 30px rgb(204, 202, 202);
+    box-shadow: 0 0 10px rgb(219, 214, 214);
     float: right;
     margin: 0 0 0 1rem;
 }
 
-/* Image section styling */
-.image-section {
-    display: flex;
-    flex-direction: column;
-}
+/*History section styling*/
 
-.image-section img::after {
-    content: attr(alt);
-    display: block;
+.history {
     text-align: center;
 }
 
-/* Footer styling */
-footer {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    width: 80%; 
-    
+.history img {
+    max-width: 320Px;
+    float: center;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-left: 15px;
 }
 
-.sociallinks img {
-    width: 40px; 
-    height: 40px; 
+.history-text p{
+
+}
+
+/* Adventures section styling */
+.adventures h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow items to wrap */
+    gap: 10px; /* Add some gap between images */
+}
+
+.image-grid figure {
+    flex: 1 1 100px; 
+    text-align: center;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.image-grid figcaption {
+    margin-top: 10px;
+}
+
+/* Footer styling */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.sociallinks img {     
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
 }
 
 
