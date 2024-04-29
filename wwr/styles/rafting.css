@@ -76,7 +76,7 @@ nav ul li a:hover {
 .hero article {
     position: absolute;
     top: 80%;
-    bottom: 10;
+    bottom: 10px;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--primary-color);
@@ -107,21 +107,21 @@ nav ul li a:hover {
 }
 
 .history img {
-    max-width: 320Px;
-    float: center;
+    max-width: 250Px;
+    float: left;
     border: 3px solid #fff;
     border-radius: 10px;
     margin-left: 15px;
 }
 
 .history-text p{
-
+    text-align: inherit;
 }
 
 /* Adventures section styling */
 .adventures h2 {
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .image-grid {
