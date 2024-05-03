@@ -100,5 +100,10 @@ button:hover {
     background-color: #999898;
     padding: 1rem;
     width: 70%;
-    margin: 0 auto 1rem;
+    margin: 1rem auto 1rem;
+}
+
+.question5 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem;
 }
