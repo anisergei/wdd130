@@ -8,6 +8,12 @@
     --link-color: #990000;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* General styling for headings and paragraphs */
 h1, h2, p {
     color: var(--text-color);
@@ -21,12 +27,10 @@ header {
     background-color: #dcdfcc;
 }
 
-/* Logo styling */
 .logo {
     flex: 1;
 }
 
-/* Navigation styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -58,7 +62,7 @@ nav ul li a:hover {
 }
 
 .hero img {
-    display: flex;
+    display: block;
     width: 100%;
     height: auto;
 }
@@ -86,6 +90,7 @@ nav ul li a:hover {
 }
 
 .hero article img {
+    /* Adjustments for the image within the article */
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -97,52 +102,61 @@ nav ul li a:hover {
     padding: 2px;
     box-shadow: 0 0 10px rgb(219, 214, 214);
     float: right;
-    margin: 0 0 0 1rem;
+    margin-right: 1rem;
 }
 
 /*History section styling*/
-
 .history {
     text-align: center;
 }
 
 .history img {
-    max-width: 250Px;
-    float: left;
+    /* Adjustments for the image in the history section */
+    max-width: 250px;
+    align-items: center;
     border: 3px solid #fff;
     border-radius: 10px;
     margin-left: 15px;
 }
 
-.history-text p{
-    text-align: inherit;
+.history-text p {
+    text-align: left;
 }
 
 /* Adventures section styling */
 .adventures h2 {
     text-align: center;
-    padding: 50px;
+    padding: 120px;
 }
 
 .image-grid {
+    border: thin#c0c0c0 solid;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; /* Allow items to wrap */
-    gap: 10px; /* Add some gap between images */
+    flex-flow: row;
+    padding: 10px;
+   
 }
 
 .image-grid figure {
-    flex: 1 1 100px; 
+    flex: 1 1 100px;
     text-align: center;
 }
 
 .image-grid img {
-    width: 100%;
-    height: auto;
+    max-width: 220px;
+    max-height: 150px;
 }
 
 .image-grid figcaption {
     margin-top: 10px;
+}
+
+figcaption {
+    background-color: #c0c0c0;
+    color: black;
+    font: italic smaller sans-serif;
+    padding: 5px;
+    text-align: center;
 }
 
 /* Footer styling */
@@ -153,11 +167,12 @@ nav ul li a:hover {
     padding: 10px;
 }
 
-.sociallinks img {     
+.sociallinks img {
     width: 40px;
     height: 40px;
     margin-left: 10px;
 }
+
 
 
 
