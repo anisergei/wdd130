@@ -156,10 +156,12 @@ figcaption {
     height: 40px;
     margin-left: 10px;
 }
+/*contatc*/
 
 .contact-main {
-    text-align: center;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .contact-main p {
@@ -167,7 +169,10 @@ figcaption {
 }
 
 .contact-map {
-    margin-top: 20px;
+    width: 100%;
+}
+iframe {
+    width: 100%;
 }
 
 .contact-employees {
@@ -208,6 +213,57 @@ figcaption {
     margin-left: 10px;
 }
 
+/* Styles for contact form section */
+
+.contact-main form {
+    width: 650px;
+    margin: 0  auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+.contact-main fieldset {
+    display: grid;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.contact-main legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+.contact-main input,
+.contact-main select,
+.contact-main textarea {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.contact-main input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.contact-main button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+.contact-main button:hover {
+    background-color: darkgreen;
+}
 
 
 
