@@ -21,10 +21,9 @@ h1, h2, p {
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #dcdfcc;
+    justify-content: center;
+    padding: 15px;
+    background-color: steelblue;
 }
 
 .logo {
@@ -44,23 +43,10 @@ nav ul li a {
     font-weight: bold;
     display: inline-block;
     padding: 15px;
-    background-color: #cec5c5;
-    border-radius: 5px;
+    background-color: whitesmoke;
+    border-radius: 20px;
 }
-
-nav ul li a:hover {
-    background-color: #e6dbdb;
-}
-
 /* Hero section styling */
-.container hero {
-    display: grid;
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
 .hero img {
     display: block;
     width: 100%;
@@ -69,24 +55,22 @@ nav ul li a:hover {
 
 .hero h1 {
     position: absolute;
+    background-color: rgba(70, 130, 180, 0.5);
     text-align: center;
-    top: 50%;
-    bottom: 10%;
-    left: 30%;
-    transform: translate(-10%, -50%);
-    padding: 20px;
+    top: 40%;
+    width: 100%;
+    left: 0%;
+    color: black;  
 }
 
 .hero article {
     position: absolute;
-    top: 70%;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: var(--primary-color);
-    padding: 10px;
-    color: var(--text-color);
+    background-color: rgba(70, 130, 180, 0.3);
+    text-align: center;
+    top: 60%;
     width: 70%;
+    left: 15%;
+    color: black;
 }
 
 .hero article img {
@@ -96,13 +80,13 @@ nav ul li a:hover {
     justify-content: flex-end;
     align-items: stretch;
     align-content: center;
-    width: 250px;
+    width: 300px;
     height: auto;
     border: 1px solid rgb(202, 208, 212);
-    padding: 2px;
+    padding: 5px;
     box-shadow: 0 0 10px rgb(219, 214, 214);
     float: right;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 /*History section styling*/
@@ -173,6 +157,56 @@ figcaption {
     margin-left: 10px;
 }
 
+.contact-main {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-main p {
+    margin-bottom: 10px;
+}
+
+.contact-map {
+    margin-top: 20px;
+}
+
+.contact-employees {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-employees .image-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-employees .image-grid figure {
+    margin: 0 10px;
+}
+
+.contact-employees .image-grid img {
+    max-width: 200px;
+    height: auto;
+}
+
+.contact-employees figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .sociallinks img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
 
 
 
