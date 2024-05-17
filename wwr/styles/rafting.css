@@ -46,6 +46,7 @@ nav ul li a {
     background-color: whitesmoke;
     border-radius: 20px;
 }
+
 /* Hero section styling */
 .hero img {
     display: block;
@@ -57,7 +58,7 @@ nav ul li a {
     position: absolute;
     background-color: rgba(58, 106, 146, 0.5);
     text-align: center;
-    top: 40%;
+    top: 50%;
     width: 100%;
     left: 0%;
     color: black;  
@@ -67,7 +68,7 @@ nav ul li a {
     position: absolute;
     background-color: rgba(70, 130, 180, 0.3);
     text-align: center;
-    top: 60%;
+    top: 70%;
     width: 70%;
     left: 15%;
     color: black;
@@ -98,11 +99,13 @@ nav ul li a {
 /*History section styling*/
 .history {
     text-align: center;
+    padding: 3%;
 }
 
 .history img {
     /* Adjustments for the image in the history section */
     max-width: 250px;
+    padding-top: 2%;
     align-items: center;
     border: 3px solid #fff;
     border-radius: 10px;
@@ -111,8 +114,7 @@ nav ul li a {
 
 .history-text p {
     text-align: center;
-    
-}
+}   
 
 /* Adventures section styling */
 .adventures h2 {
