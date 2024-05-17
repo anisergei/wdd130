@@ -125,7 +125,7 @@ nav ul li a {
 .image-grid {
     border: 1px solid #ddd;
     display: flex;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -169,6 +169,7 @@ figcaption {
 .footer {
     text-align: center;
     padding: 10px;
+    padding-top: 2%;
 }
 
 .footer .sociallinks img {
@@ -177,7 +178,111 @@ figcaption {
     margin-left: 10px;
 }
 
+/*contatc*/
 
+.contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contact-main p {
+    margin-bottom: 10px;
+}
+
+.contact-map {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+.contact-employees {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-employees .image {
+    padding: 3%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contact-employees .image figure {
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-employees .image img {
+    max-width: 200px;
+    height: auto;
+}
+
+.contact-employees figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+/* Styles for contact form section */
+.contact-main form {
+    width: 650px;
+    margin: 0  auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+.contact-main fieldset {
+    display: grid;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.contact-main legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+.contact-main input,
+.contact-main select,
+.contact-main textarea {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.contact-main input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.contact-main button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+.contact-main button:hover {
+    background-color: darkgreen;
+}
 
 
 /*trip styles*/
