@@ -164,6 +164,19 @@ figcaption {
     height: 40px;
     margin-left: 10px;
 }
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .sociallinks img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
 /*contatc*/
 
 .contact-main {
@@ -179,27 +192,36 @@ figcaption {
 .contact-map {
     width: 100%;
 }
+
 iframe {
     width: 100%;
 }
 
 .contact-employees {
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 
-.contact-employees .image-grid {
+.contact-employees .image {
+    padding: 2%;
     display: flex;
+    gap: 20px;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
-.contact-employees .image-grid figure {
+.contact-employees .image figure {
     margin: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.contact-employees .image-grid img {
+.contact-employees .image img {
     max-width: 200px;
     height: auto;
 }
@@ -209,17 +231,6 @@ iframe {
     font-style: italic;
 }
 
-/* Footer styling */
-.footer {
-    text-align: center;
-    padding: 10px;
-}
-
-.footer .sociallinks img {
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-}
 
 /* Styles for contact form section */
 
@@ -272,6 +283,7 @@ iframe {
 .contact-main button:hover {
     background-color: darkgreen;
 }
+
 
 /*trip styles*/
 .trip-descriptions {
