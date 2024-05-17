@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: center;
     padding: 15px;
-    background-color: steelblue;
+    background-color: rgb(25, 72, 110);
 }
 
 .logo {
@@ -32,8 +32,8 @@ header {
 
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 50px;
+    margin-right: 50px;
     display: flex;
 }
 
@@ -41,8 +41,8 @@ nav ul li a {
     text-decoration: none;
     color: #0c0c0c;
     font-weight: bold;
-    display: inline-block;
-    padding: 15px;
+    display: block;
+    padding: 1.5em;
     background-color: whitesmoke;
     border-radius: 20px;
 }
@@ -55,7 +55,7 @@ nav ul li a {
 
 .hero h1 {
     position: absolute;
-    background-color: rgba(70, 130, 180, 0.5);
+    background-color: rgba(58, 106, 146, 0.5);
     text-align: center;
     top: 40%;
     width: 100%;
@@ -71,6 +71,12 @@ nav ul li a {
     width: 70%;
     left: 15%;
     color: black;
+}
+
+.hero article p {
+    position: flex;
+    text-align: center;
+    padding-top: 6%;
 }
 
 .hero article img {
@@ -104,7 +110,8 @@ nav ul li a {
 }
 
 .history-text p {
-    text-align: left;
+    text-align: center;
+    
 }
 
 /* Adventures section styling */
@@ -265,12 +272,52 @@ iframe {
     background-color: darkgreen;
 }
 
+/*trip styles*/
+.trip-descriptions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
 
+.trip {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+.trip img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
 
-  
+.trip h2 {
+    margin: 10px 0;
+}
 
+.trip-table {
+    text-align: center;
+}
 
+.trip-table table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.trip-table th {
+    background-color: #aab4be;
+}
 
 
 
