@@ -117,20 +117,19 @@ nav ul li a {
 /* Adventures section styling */
 .adventures h2 {
     text-align: center;
-    padding: 120px;
+    padding: 50px;
 }
 
 .image-grid {
-    border: thin#c0c0c0 solid;
+    border: 1px solid #ddd;
     display: flex;
-    flex-flow: row;
     padding: 10px;
-   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .image-grid figure {
     flex: 1 1 100px;
-    text-align: center;
+    text-align: center;    
 }
 
 .image-grid img {
