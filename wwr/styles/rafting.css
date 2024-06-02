@@ -1,29 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Define custom CSS variables */
-:root {
-    --primary-color: rgba(160, 173, 185, 0.7);
-    --secondary-color: #66CCFF;
-    --text-color: #050000;
-    --link-color: #990000;
-}
-
+/*Reset CSS */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* General styling for headings and paragraphs */
-h1, h2, p {
-    color: var(--text-color);
+/*Global Styles*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8f8;
+    color: #333;
 }
 
 header {
     display: flex;
     justify-content: center;
     padding: 15px;
-    background-color: rgb(25, 72, 110);
+    background-color: rgb (25, 72, 110);
 }
 
 .logo {
@@ -47,7 +42,36 @@ nav ul li a {
     border-radius: 20px;
 }
 
-/* Hero section styling */
+/* Header Styles */
+.header {
+    background-color: rgb(25, 72, 110);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #050202;
+    font-weight: bold;
+}
+
+
+/* Hero section styling*/
 .hero img {
     display: block;
     width: 100%;
@@ -114,7 +138,7 @@ nav ul li a {
 
 .history-text p {
     text-align: center;
-}   
+} 
 
 /* Adventures section styling */
 .adventures h2 {
@@ -232,11 +256,10 @@ iframe {
     font-style: italic;
 }
 
-
-/* Styles for contact form section */
+/*Styles for contact form section */
 .contact-main form {
     width: 650px;
-    margin: 0  auto;
+    margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
@@ -284,7 +307,6 @@ iframe {
     background-color: darkgreen;
 }
 
-
 /*trip styles*/
 .trip-descriptions {
     display: flex;
@@ -325,18 +347,115 @@ iframe {
 
 .trip-table th, .trip-table td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 10px;
 }
 
 .trip-table th {
     background-color: #aab4be;
 }
 
+.cotainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Large Image Section Styles */
+.large-image {
+    position: relative;
+    height: 400px; 
+}
+
+.large-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.large-image h1 {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #f7ead1;
+}
+
+/* Content Section Styles */
+.content {
+    text-align: center;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: rgb(25, 72, 110);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cta a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(25, 72, 110);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Grid Layout Section Styles */
+.grid-layout {
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+}
+
+.grid-item {
+    flex: 1;
+    max-width: 700px;
+}
+
+.grid-item img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item p {
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: rgb(25, 72, 110);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.sociallinks a {
+    margin: 0 10px;
+}
+
+.sociallinks img {
+    width: 30px;
+    height: 30px;
+}
 
 
-
-
-
-
-  
- 
